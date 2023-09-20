@@ -1,0 +1,185 @@
+body{
+    padding: 50px 150px ;
+}
+
+button{
+
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    color:rgb(163, 158, 158) ;
+}
+
+button:hover{
+    cursor: pointer;
+    color: rgb(254, 123, 123);
+    
+}
+
+.header{
+    display:flex;
+    justify-content: space-between;
+}
+
+.menu{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    gap: 35px;
+    justify-content: end;
+    
+}
+
+
+.menu{
+   padding-left: 30%;
+}
+
+.middle{
+    margin-top:35px ; 
+    position: relative;
+}
+
+.left-content{
+    position: relative;
+}
+
+.img-1{
+    position: absolute;
+    width: 68%;    
+    height: 250px;
+    float: left;
+    /* margin-right: 70%; */
+}
+
+.right-content{
+    position: absolute;
+    background-color: hsl(230, 64%, 9%);
+    color: white;
+    left: 73%;
+    height: 400px ;
+    margin: auto;
+   
+}
+
+h2{
+    color: rgba(252, 178, 40, 0.966);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 13px;
+    
+    
+}
+
+p{
+    color: rgb(142, 147, 151);
+    font-size: smaller;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+hr{
+    border:1px solid; 
+    color: rgb(78, 85, 92) ;
+    width: 75%;
+    
+}
+
+h2,h3,p,hr{
+    padding-inline: 20px;
+}
+
+.middle-footer{
+    display: flex;
+   
+}
+
+.middle-bottom-text{
+    position: absolute;
+    width: 350px;
+    top: 240px;
+    font-size: larger;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.middle-p{
+    position: absolute;
+    top: 260px;
+    width: 350px;
+    font-size: large;
+    left: 40%;
+    
+    
+}
+
+.read-more{
+    position: absolute;
+    left: 20px;
+    background-color:rgb(247, 102, 102) ;
+    border: none;
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    padding: 10px;
+    width: 41%;
+    top: 102px;
+}
+
+.read-more:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.Footer{
+    display: flex;
+    position: absolute;
+    top: 80%;
+    gap: 76px;
+   
+}
+
+#Footer-img{
+    width: 70px;
+    height: 100px;
+}
+
+
+.f1,.f2,.f3{
+    display: flex;
+}
+
+.f1-content,.f2-content,.f3-content{
+    width: 300px;
+
+}
+
+.f1-p-no,.f2-p-no,.f3-p-no{
+    font-weight: bold;
+    color: rgb(167, 164, 164);
+    font-size: x-large;
+    margin: auto;
+}
+
+.f1-p-subhead,.f2-p-subhead,.f3-p-subhead{
+    font-size: 16px;
+    margin: auto;
+    margin-top: 10px;
+    color: black;
+    font-weight: 900;
+}
+
+.f1-p-subhead:hover,.f2-p-subhead:hover,.f3-p-subhead:hover{
+    cursor: pointer;
+    color: rgb(254, 123, 123);
+}
+
+
+
+.f1-p-info,.f2-p-info,.f3-p-info{
+    font-weight: 550;
+}
